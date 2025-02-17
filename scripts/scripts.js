@@ -9,6 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
       });
   });
 
+  
   function submitOrder() {
     return new Promise((resolve, reject) => {
       try {
@@ -71,9 +72,14 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  function displayStatus(message, className) {
+  // Displays a message inside statusText, with a class name. Clears after a few seconds.
+  async function displayStatus(message, className) {
     let statusText = document.querySelector("#statusText");
     statusText.innerHTML = message;
     statusText.className = className;
+
+    setTimeout(() => {
+      statusText.innerHTML = "";
+    }, 5000);
   }
 });

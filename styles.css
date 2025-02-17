@@ -7,6 +7,7 @@
   grid-template-rows: 1fr 1fr 1fr;
   width: 1200px;
   height: 1000px;
+  padding: 16px;
   background-image: linear-gradient(to bottom right, #433125, #886146);
   /* background-color: #6f4e37; */
   margin: auto;
@@ -81,6 +82,9 @@ nav a:link:hover {
   height: auto;
 }
 
+#statusText {
+  background-color: rgba(0, 0, 0, 50%);
+}
 .success {
   color: green;
 }
