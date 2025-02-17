@@ -1,0 +1,16 @@
+[
+  {
+    "itemId": 0,
+    "itemName": "Coffee",
+    "itemDesc": "Our finest blend of Columbian and Arabica coffee.",
+    "itemPrice": 1.99,
+    "itemImage": ""
+  },
+  {
+    "itemId": 1,
+    "itemName": "Mocaccino",
+    "itemDesc": "A tasty combination of our finest coffee, with delicious cacao.",
+    "itemPrice": 2.49,
+    "itemImage": ""
+  }
+]
