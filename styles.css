@@ -80,3 +80,26 @@ nav a:link:hover {
   width: 200px;
   height: auto;
 }
+
+.success {
+  color: green;
+}
+
+.fail {
+  color: red;
+}
+
+form {
+  display: grid;
+  gap: 16px;
+
+  grid-template-columns: 1fr 1fr;
+  padding: 24px;
+  background-color: rgba(0, 0, 0, 50%);
+  color: white;
+}
+
+form div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
