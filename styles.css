@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+#main-container {
+  display: grid;
+  width: 1000px;
+  height: 1000px;
+  background-color: burlywood;
+  margin: auto;
+}
+
+body {
+  background-color: brown;
+}
