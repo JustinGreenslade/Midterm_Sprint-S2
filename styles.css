@@ -4,7 +4,8 @@
 
 #main-container {
   display: grid;
-  width: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 1200px;
   height: 1000px;
   background-image: linear-gradient(to bottom right, #433125, #886146);
   /* background-color: #6f4e37; */
@@ -14,6 +15,7 @@
 body {
   background-color: #ccb7a7;
 }
+
 header {
   background-color: pink;
   height: 54px;
@@ -21,9 +23,11 @@ header {
   background-color: #2d2119;
   border: 2px solid #ccb7a7;
 }
+
 header img {
   width: 100%;
 }
+
 nav {
   display: flex;
   text-align: center;
@@ -32,6 +36,7 @@ nav {
   background-color: #2d2119;
   border: 2px solid #ccb7a7;
 }
+
 nav a:link {
   padding-right: 40px;
   margin: auto;
@@ -40,7 +45,8 @@ nav a:link {
   font-size: 20pt;
   transition: transform 0.3s ease;
 }
-nav a:link:visited {
+
+nav a:visited {
   color: #ccb7a7;
   text-decoration: none;
   font-size: 20pt;
@@ -64,6 +70,7 @@ nav a:link:hover {
   box-shadow: 8px 8px 25px #0f0a07;
   transition: transform 0.3 ease;
 }
+
 .menuItem:hover {
   transform: scale(1.1);
 }
