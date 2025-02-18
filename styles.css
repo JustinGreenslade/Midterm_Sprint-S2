@@ -33,6 +33,7 @@ nav {
   background-color: #2d2119;
   border: 2px solid #ccb7a7;
 }
+
 nav a:link {
   padding-right: 40px;
   margin: auto;
@@ -77,6 +78,7 @@ main {
   box-shadow: 8px 8px 25px #0f0a07;
   transition: transform 0.3 ease;
 }
+
 .menuItem:hover {
   transform: scale(1.1);
 }
@@ -87,44 +89,28 @@ main {
   height: auto;
 }
 
-/* Footer */
-footer {
-  background-color: #333;
-  height: 50px;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  border: 2px solid #ccb7a7;
+#statusText {
+  background-color: rgba(0, 0, 0, 50%);
 }
-/* General style for labels */
-label {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 8px;
-  display: block;
+.success {
+  color: green;
 }
 
-/* Style for input fields (text, phone, email) */
-input[type="text"] {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 100%;
-  box-sizing: border-box; /* Ensures padding doesn't affect width */
-  background-color: #fff;
+.fail {
+  color: red;
 }
 
-/* Style for the form container */
 form {
-  grid-column: 1/4;
-  grid-row: 1/4;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  gap: 16px;
+
+  grid-template-columns: 1fr 1fr;
+  padding: 24px;
+  background-color: rgba(0, 0, 0, 50%);
+  color: white;
+}
+
+form div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
