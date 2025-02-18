@@ -41,7 +41,7 @@ nav a:link {
   font-size: 20pt;
   transition: transform 0.3s ease;
 }
-nav a:link:visited {
+nav a:visited {
   color: #ccb7a7;
   text-decoration: none;
   font-size: 20pt;
@@ -95,4 +95,36 @@ footer {
   text-align: center;
   padding: 10px;
   border: 2px solid #ccb7a7;
+}
+/* General style for labels */
+label {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Style for input fields (text, phone, email) */
+input[type="text"] {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  background-color: #fff;
+}
+
+/* Style for the form container */
+form {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
