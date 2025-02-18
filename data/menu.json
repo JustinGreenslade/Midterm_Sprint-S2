@@ -10,6 +10,76 @@
     "itemId": 1,
     "itemName": "Mocaccino",
     "itemDesc": "A tasty combination of our finest coffee, with delicious cacao.",
+    "itemPrice": 2.99,
+    "itemImage": ""
+  },
+  {
+    "itemId": 2,
+    "itemName": "Espresso",
+    "itemDesc": "A strong and bold shot of pure coffee.",
+    "itemPrice": 1.99,
+    "itemImage": ""
+  },
+  {
+    "itemId": 3,
+    "itemName": "Orange Pekoe Tea",
+    "itemDesc": "A rich and smooth black tea with subtle citrus notes.",
+    "itemPrice": 1.49,
+    "itemImage": ""
+  },
+  {
+    "itemId": 4,
+    "itemName": "Chai Latte",
+    "itemDesc": "A warming blend of spiced tea and creamy milk.",
+    "itemPrice": 2.99,
+    "itemImage": ""
+  },
+  {
+    "itemId": 5,
+    "itemName": "Earl Grey Tea",
+    "itemDesc": "A fragrant black tea with a hint of bergamot.",
+    "itemPrice": 1.99,
+    "itemImage": ""
+  },
+  {
+    "itemId": 6,
+    "itemName": "Croissant",
+    "itemDesc": "A flaky, buttery pastry that pairs perfectly with your coffee.",
+    "itemPrice": 2.49,
+    "itemImage": ""
+  },
+  {
+    "itemId": 7,
+    "itemName": "Chocolate Chip Cookie",
+    "itemDesc": "Freshly baked with a perfect balance of chocolate and sweetness.",
+    "itemPrice": 1.99,
+    "itemImage": ""
+  },
+  {
+    "itemId": 8,
+    "itemName": "Granola Bar",
+    "itemDesc": "A healthy and crunchy snack, packed with oats and honey.",
+    "itemPrice": 1.99,
+    "itemImage": ""
+  },
+  {
+    "itemId": 9,
+    "itemName": "Avocado Toast",
+    "itemDesc": "A slice of toasted bread topped with creamy avocado and seasonings.",
+    "itemPrice": 3.99,
+    "itemImage": ""
+  },
+  {
+    "itemId": 10,
+    "itemName": "Bagel with Cream Cheese",
+    "itemDesc": "A toasted bagel spread with smooth cream cheese.",
+    "itemPrice": 2.49,
+    "itemImage": ""
+  },
+  {
+    "itemId": 11,
+    "itemName": "Muffin",
+    "itemDesc": "A moist, delicious muffin, perfect for a quick snack.",
     "itemPrice": 2.49,
     "itemImage": ""
   }
